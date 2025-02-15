@@ -17,7 +17,7 @@ onMounted(async () => {
 <template>
     <div>
         <h1 class='text-3xl font-bold underline font-manrope'>Welcome to My Portfolio</h1>
-        <p>Site Visits: {{ hitCount }}</p>
+        <p>Site Visit Count: {{ hitCount }}</p>
         <a :href="cvLink" download><button>Download CV</button></a>
     </div>
 </template>
