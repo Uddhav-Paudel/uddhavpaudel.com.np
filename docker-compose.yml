@@ -11,11 +11,12 @@ services:
     depends_on:
       - mongo
 
-  frontend:
+  app:
     build:
       context: ./frontend
+      dockerfile: Dockerfile
     ports:
-      - "4174:4174"
+      - 4173:80
     depends_on:
       - backend
 
@@ -24,7 +25,8 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - /c/Users/Uddhav/Documents/Databases/portal-data:/data/db
-
+      - /var/lib/mongo:/data/db
+      #- /c/Users/Uddhav/Documents/Databases/portal-data:/data/db
+      
 volumes:
   mongo-data:

@@ -1,4 +1,4 @@
-FROM node:22
+FROM node:22 AS build
 
 # Set the working directory
 WORKDIR /app
@@ -12,8 +12,15 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-# Expose the port the app runs on
-EXPOSE 4173
+# Run build
+RUN npm run build
 
-# Command to run the application
-CMD ["npm", "run", "preview"]
+# Production
+FROM nginx:stable-alpine AS production
+
+COPY --from=build ./app/dist /usr/share/nginx/html
+
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
