@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="48.477 -18.842 269.93 118.315" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <g fill="#011546" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal" transform="matrix(1, 0, 0, 1, -90.529284, -194.358862)">
+    <g data-paper-data="{&quot;isGlobalGroup&quot;:true,&quot;bounds&quot;:{&quot;x&quot;:147.23741007194246,&quot;y&quot;:184.5077342442593,&quot;width&quot;:255.52517985611502,&quot;height&quot;:100.98453151148144}}">
+      <g data-paper-data="{&quot;isPrimaryText&quot;:true}" id="element-id-33934">
+        <path d="M217.95109,214.77858l8.08857,-30.27085h-78.80225l28.92275,30.27085zM228.00052,255.22142h-20.83419l8.08857,-30.27085h-41.79093l-13.48094,50.36971l7.7209,10.17199h83.58186l13.11328,-10.17199l24.2657,-90.81255h-41.66837z" data-paper-data="{&quot;glyphName&quot;:&quot;U&quot;,&quot;glyphIndex&quot;:0,&quot;firstGlyphOfWord&quot;:true,&quot;word&quot;:1}" fill="#011546" id="element-id-81110"/>
+        <path d="M315.74922,285.49227l8.08857,-30.27085h52.20802l13.23584,-10.17199l13.48094,-50.36971l-7.7209,-10.17199h-93.99895l-27.08444,100.98453zM352.88309,224.95057h-20.95674l2.69619,-10.17199h20.95674z" data-paper-data="{&quot;glyphName&quot;:&quot;p&quot;,&quot;glyphIndex&quot;:1,&quot;lastGlyphOfWord&quot;:true,&quot;word&quot;:1}" fill="#011546" id="element-id-3329"/>
+      </g>
+    </g>
+  </g>
+  <rect data-element-id="element-id-33934" stroke-width="2" fill="transparent" class="invisible-element-box grouping-element" x="56.471" y="-9.359" width="256" height="101" data-element-name="isPrimaryText"/>
+  <rect data-element-id="element-id-81110" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="56.471" y="-9.359" width="141" height="101"/>
+  <rect data-element-id="element-id-3329" stroke-width="2" fill="transparent" class="invisible-element-box individual-element" x="183.471" y="-9.359" width="129" height="101"/>
+</svg>
