@@ -13,6 +13,7 @@ services:
     image: nginx
     build:
       context: ./nginx
+      dockerfile: Dockerfile
     container_name: nginx_service
     restart: always
     ports:
