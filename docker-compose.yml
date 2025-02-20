@@ -17,10 +17,9 @@ services:
     container_name: portal_frontend
     ports:
       - 80:80
-      - 4173:4173
     depends_on:
       - backend
-
+  
   mongo:
     image: mongo:latest
     ports:
@@ -31,3 +30,7 @@ services:
       
 volumes:
   mongo-data:
+
+networks:
+  proxy:
+    external: true
