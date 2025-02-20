@@ -1,5 +1,5 @@
 # Use the official Nginx image from the Docker Hub
-FROM nginx:latest
+FROM nginx:alpine
 
 # Copy custom configuration file from the current directory
 # to the Nginx configuration directory
