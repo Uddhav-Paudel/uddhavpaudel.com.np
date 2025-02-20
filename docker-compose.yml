@@ -12,7 +12,7 @@ services:
     depends_on:
       - mongo
   nginx:
-    image: nginx
+    image: nginx:latest
     container_name: nginx_service
     restart: always
     ports:
