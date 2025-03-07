@@ -6,8 +6,12 @@
 trigger:
 - main
 
+
+
 pool:
   vmImage: ubuntu-latest
+  demands:
+    - agent.name -equals DefUdi
 
 steps:
 - script: echo Hello, world!
